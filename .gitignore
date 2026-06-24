@@ -1,33 +1,31 @@
-# Local config
-AD-UserPasswordStatus-GUI.config.json
+﻿# Local config
 **/AD-UserPasswordStatus-GUI.config.json
+**/*config.local*.json
 
 # Saved credentials / secrets
-ad-credential.xml
-*.credential.xml
-*.clixml
 **/ad-credential.xml
 **/*.credential.xml
 **/*.clixml
+**/*.key
+**/*.secret
+**/*.token
+**/*.pfx
+**/*.kdbx
 
-# Logs / temp / backups
-*.log
-*.tmp
-*.bak
-*.old
+# Logs / temp / packages
+**/*.log
+**/*.tmp
+**/*.bak
+**/*.zip
 
-# Exported packages
-*.zip
-
-# Screenshots / local evidence
-screenshots/
-Screenshots/
-*.png
-*.jpg
-*.jpeg
+# Screenshots / exports
+**/screenshots/
+**/Screenshots/
+**/*.png
+**/*.jpg
+**/*.jpeg
 
 # OS/editor
 Thumbs.db
 Desktop.ini
 .vscode/
-.idea/
